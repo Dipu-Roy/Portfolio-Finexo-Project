@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.body-img{
+    position: absolute;
+    width: 100%;
+}
+.body-img img{
+    width: 100%;
+    height: auto;
+    
+    /* position: fixed; */
+}
+.header-part{
+    display: flex;
+    position: relative;
+    margin-bottom: 100px;
+    /* margin-top: 10px; */
+    align-items: center;
+}
+.brand-name a{
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;   
+}
+.option-menu{
+    display: flex;
+    margin-left: 650px;
+    /* justify-content: space-between; */
+
+}
+
+.option-menu li{
+    color: #fff;
+    list-style: none;
+    margin: 18px;
+    /* margin-top: 19px; */
+    font-size: 17px;
+}
+.body-part{
+    display: flex;
+    position: relative;
+    width: 100%;
+    /* margin: 28px; */
+   
+
+}
+.currency{
+    width: 100%;
+     margin-left: 120px;
+     margin-right: 125px;
+    margin-top: 60px;
+}
+.currency h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 630;
+}
+.currency p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 18px;
+    font-weight: 400;
+}
+.slider-img{
+    margin-right: 155px;
+
+}
+.slider-img img{
+    width: 100%;
+}
+.read-btn>button{
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: none;
+    color: #fff;
+    background-color: rgb(14, 192, 192) 
+}
+.our-services{
+    position: relative;
+    text-align: center;
+    margin-top: 400px;
+}
+.our-services h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.three-img{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
+    /* margin-left: 50px; */
+    justify-content: space-evenly;
+
+}
+
+.three-img img{
+    align-items: center;
+    width:28%;
+}
+.three-img h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.three-img span{
+    font-weight: 600;
+}
+.view-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.view-btn button{
+    padding: 6px 40px;
+    background-color: #00bbf0;
+    border: none;
+    color: #fff;
+}
+.view-btn p{
+    font-size: 10px;
+    /* margin: 30px; */
+}
+.three-img .wallet{
+    width: 20%;
+}
+.three-img .storage{
+    width: 20%;
+}
+.three-img .expert{
+    width: 20%;
+}
+.color-body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 32, 74);
+}
+.about{
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    padding: 90px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+.dolar img{
+    width: 85%;
+    margin: -60px 0 280px 160px;
+}
+.flex .we-are{
+    width: 100%;
+    color: #fff;
+    margin-right: 150px;
+    margin-left: 90px;
+    margin-top: -15px;
+}
+.we-are h3{
+    font-weight: 600;
+}
+.we-are p{
+    font-weight: 500;
+}
+.we-are button{
+    padding: 10px 35px;
+    background-color: #00bbf0;
+    border: none;
+    margin-top: 10px;
+}
+.why-us{
+    text-align: center;
+    margin-top: 90px;
+}
+.why-us h2{
+    font-size: 35px;
+}
+.icon-picture img{
+   margin-left: 47%;
+   margin-top: 35px;
+    width: 110px;
+    border: 5px solid #00204a;
+    border-radius: 50%;
+    padding: 25px;
+}
+.icon-picture h3{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 22px;
+}
+.pic-1 img{
+    width: 40px;
+    height: 40px;
+    /* box-sizing: border-box; */
+    
+}
+.icon-picture p{
+    margin: 0 160px;
+    text-align: center;
+    font-size: 18px;
+}
+.btn-readmore{
+    text-align: center;
+    margin-top: 43px;
+}
+.btn-readmore button{
+    padding: 10px 40px;
+    background-color: #4ed4f9;
+    color: #fff;
+    border: none;
+}
+.color-team{
+    background-color: rgb(0, 32, 74);
+    width: 100%;
+    height: 580px;
+}
+.our-team{
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px;
+}
+.people-details{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.people-details img{
+    width: 125px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.fore-men{
+    color: #fff;
+    padding: 50px 68px;
+    background-color: rgb(0, 40, 91);
+    border-radius: 5px;
+}
+.fore-men h3{
+    margin-top: 15px;
+    color: rgb(0, 187, 240);
+}
+.icons i{
+    font-size: 28px;
+}
+.what-say{
+    text-align: center;
+    margin-top: 90px;
+}
+.zen-den{
+    display: flex;
+    padding: 10px 60px;
+    margin: 100px 0 20px 140px;
+    width: 80%;
+    height: 250px;
+    /* margin-left: 250px; */
+    /* margin-top: 100px; */
+    gap: 50px;
+}
+.text{
+    margin-left: 22px;
+}
+.text p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.den{
+    box-shadow: 0 0 10px rgb(190, 235, 250);
+    /* box-shadow: 10px 10px lightblue; */
+}
+.zen{
+    box-shadow: 0 0 10px rgb(190, 235, 250);
+}
+.zen-den img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.arrow-icon{
+    text-align: center;
+    margin-top: 50px;
+}
+.arrow-icon i{
+    font-size: 40px;
+    padding: 5px 5px;
+    box-shadow: 0 0 10px rgb(5, 5, 5);
+}
+.footer-part{
+    display: flex;
+    width: 90%;
+}
+.three-icon{
+    display: flex;
+    display: block;
+}
+.flex-item{
+    display: flex;
+    background: rgb(0, 32, 74);
+    margin-top: 90px;
+}
+.address-box{
+    color: #fff;
+    margin-left: 208px;  
+    margin-top: 25px;
+    padding: 15px 0;
+}
+.address-icons i:hover{
+    color: rgb(0, 172, 240);
+    cursor: pointer;
+}
+.link-icon{
+    font-size: 25px;
+}
+.link-icon i:hover{ 
+    color: rgb(0, 172, 240);
+    cursor: pointer;
+}
+.info{
+    color: #fff;
+    
+}
+.links{
+    color: #fff;
+   
+}
+.subscribe{
+    color: #fff;
+}
+
+.icons i{
+   font-size: 18px;
+}
+.info{
+    margin: 40px 25px 0 80px;
+    font-size: 18px;
+}
+.links{
+    margin: 35px 200px 0 0;
+}
+.links ul li{
+    list-style: none;
+    margin: 7px 0 0 -28px;
+}
+.links ul li:hover{
+    color: rgb(0, 172, 240);
+    cursor: pointer;
+}
+.subscribe{
+    margin: 39px 200px 0 0;
+}
+.subscribe input{
+    border: none;
+    margin-top: 13px; 
+    background: rgb(0, 32, 74);  
+}
+.subscribe hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+  margin-right: auto;
+  border-width: 2px;
+}
+.subscribe button{
+    margin-top: 5px;
+    padding: 8px 58px;
+    border: none;
+    background: rgb(0, 187, 240);
+}
+.subscribe button:hover{
+    background: rgb(0, 127, 187);
+}
+.copy-right{
+    margin-top: 20px;
+    text-align: center;
+}
